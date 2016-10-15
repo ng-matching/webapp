@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+}
+
+
+#nav {
+	background: #333738;
+	float: left;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+}
+
+#container {
+	background: #0A8C8A; 
+	float: left;
+	width: 80%;
+	left: 20%;
+	position: absolute;
+	height: 100%;
+}
+
+
