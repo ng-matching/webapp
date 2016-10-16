@@ -1,23 +1,37 @@
-##MATCHING
+###MATCHING
 ___________
 ![logo](https://github.com/ng-matching/webapp/blob/master/images/logo.png)
 ___________
 
-#How To Play:
+##How To Play:
  > match all the pair cards.
-__________
+___________
 #Reasons of Making:
  > Project
-________
+___________
 #Person Behind:
- >Ross Alquiroz
- > Lorenz Florentino
- > Cristian Quiza
- > Eldrin Bernardino 
- > Rhez Sean Crisostomo
- > Mark Paul Caneda
- > Angela Mikaela R. Requinto
- > Chyrine Cortez
- > Allyson Tubtub
- > Marella Inductivo
- > Gerald Guzman
+ * Ross Alquiroz
+   > code (primary page Difficulty)
+ * Lorenz Florentino
+   > code ( navigation [reload,restart,information,counting sym.])
+ * Cristian Quiza
+   > code (color scheme [navigation])
+ * Eldrin Bernardino 
+   > Design (css)
+ * Rhez Sean Crisostomo
+   > CSS
+ * Mark Paul Caneda
+   > CSS
+ * Angela Mikaela R. Requinto
+   > Researcher,Documentation, (read me)
+ * Chyrine Cortez
+   > Sounds,Researcher
+ * Allyson Tubtub
+   > About us (page)
+ * Marella Inductivo
+   > About us (laverdad)
+ * Gerald Guzman
+   > About us (page)
+#Special Thank to :
+ * Mr. Rodrigo Galura
+
