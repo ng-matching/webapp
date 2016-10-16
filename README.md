@@ -4,16 +4,16 @@ ___________
 ___________
 
 ##How To Play:
- > match all the pair cards.
+ > Match all the pair cards.
 ___________
 ###Reasons of Making:
  > Project in WAD
 ___________
 ###Person Behind:
- * Ross Alquiroz
+ * Lynyrd Ross Alquiroz
     - code (primary page Difficulty)
  * Lorenz Florentino
-    - code ( navigation [reload,restart,information,counting sym.])
+    - code ( navigation [reload, restart, information, counting sym.])
  * Cristian Quiza
     - code (color scheme [navigation])
  * Eldrin Bernardino 
@@ -23,9 +23,9 @@ ___________
  * Mark Paul Caneda
     - CSS
  * Angela Mikaela R. Requinto
-    - Researcher,Documentation, (read me)
+    - Researcher, Documentation, (read me)
  * Chyrine Cortez
-    - Sounds,Researcher
+    - Sounds, Researcher
  * Allyson Tubtub
     - About us (page)
  * Marella Inductivo
