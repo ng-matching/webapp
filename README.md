@@ -11,7 +11,7 @@ ___________
 ___________
 #Person Behind:
  * Ross Alquiroz
-   > code (primary page Difficulty)
+   - code (primary page Difficulty)
  * Lorenz Florentino
    > code ( navigation [reload,restart,information,counting sym.])
  * Cristian Quiza
