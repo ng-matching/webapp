@@ -29,6 +29,7 @@ body {
 	height: 100%;
 }
 #toggle{
+	float: left;
 	height: 0;
 }
 #togglebnt{
@@ -45,19 +46,23 @@ body {
 		font-size: 8px;
 	}
 	#container{
-		height: 94.74%;
+		height: 94.1%;
 		width: 100%;
+		top: 39.3px;
 		left: 0;
+		float: left;
 	}
 	#toggle{
+		float: left;
 		width: 100%;
-		height: auto;
+		height: 10%;
 		position: relative;
 		background-color: gray;
+		z-index: 1;
 	}
 	#togglebtn{
 		visibility: show;
-		height: 20px;
+		height: 25px;
 		padding: 5.5px 5px 5px 5px;
 		width: auto;
 	}
