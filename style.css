@@ -11,6 +11,15 @@ body {
 	position: absolute;
 }
 
+#blackbg{
+	height: 0;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 9;
+	opacity: .6;
+}
+
 #container {
 	background: #0A8C8A; 
 	float: left;
@@ -18,6 +27,40 @@ body {
 	left: 20%;
 	position: absolute;
 	height: 100%;
+}
+#toggle{
+	height: 0;
+}
+#togglebnt{
+	visibility: hidden;
+}
+
+@media screen and (max-width: 768px){
+	#nav {
+	width: 240px;
+	z-index: 10;
+	margin-left: -240px;
+	}
+	#aboutus{
+		font-size: 8px;
+	}
+	#container{
+		height: 94.74%;
+		width: 100%;
+		left: 0;
+	}
+	#toggle{
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: gray;
+	}
+	#togglebtn{
+		visibility: show;
+		height: 20px;
+		padding: 5.5px 5px 5px 5px;
+		width: auto;
+	}
 }
 
 
