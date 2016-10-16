@@ -1,4 +1,4 @@
-###MATCHING
+#MATCHING
 ___________
 ![logo](https://github.com/ng-matching/webapp/blob/master/images/logo.png)
 ___________
@@ -6,10 +6,10 @@ ___________
 ##How To Play:
  > match all the pair cards.
 ___________
-#Reasons of Making:
+###Reasons of Making:
  > Project in WAD
 ___________
-#Person Behind:
+###Person Behind:
  * Ross Alquiroz
     - code (primary page Difficulty)
  * Lorenz Florentino
@@ -32,8 +32,8 @@ ___________
     - About us (laverdad)
  * Gerald Guzman
     - About us (page)
-_____________
 
-#Special Thank to :
+
+###Special Thank to :
  * Mr. Rodrigo Galura
 
