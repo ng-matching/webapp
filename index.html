@@ -6,13 +6,14 @@
 	<meta name="viewport" content="width = device - width, initial-scale = 1.0">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3\font-awesome-4.6.3\css\font-awesome.min.css">
 	<link rel="shortcut icon" href="images/icon.png">
+
 </head>
 <body>
 	<div id="nav">
 		
 		<img src="images\logo.png" style="position: absolute; width: 90%; height: auto; left: 5%; top: 3%;">
 		
-		<div>
+		<div id="btns" >
 		<img src="images\info.png" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
 		<img src="images\quit.png" style="position: absolute; width: 20%; height: auto; left: 40%; top: 22%;">
 		<img src="images\restart.png" style="position: absolute; width: 20%; height: auto; left: 70%; top: 22%;">
@@ -20,29 +21,48 @@
 
 		<span style="position: absolute; top: 35%; background: #141617; width: 80%; left: 10%; font-size: 24px; text-align: center; font-family: JungleFever; color: #49943A; border-radius: 5px;"> 
 			<p id="mode">
-				MODE
+				&nbsp
 			</p> 
 			
 			<hr color="#49943A" width="82%">
 			
 			<p id="difficulty">
-				DIFFICULTY
+				&nbsp
 			</p>
 		</span>
 
-		<span style="position: absolute; bottom: 0%; color: white; font-size: 9.5px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 3%;padding-bottom: 3%;">
-			<a href="" style="color: #AFB2B3; text-decoration: none;"> About Us. </a> (c) All Rights Reserve 2016 | La Verdad Christian College Web Application Development | BS in Information System 
+		<span style="position: absolute; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
+			<p id="aboutus" >
+			<a href="#" style="color: #AFB2B3; text-decoration: none;"> About Us </a> | &copy All Rights Reserve 2016 | La Verdad Christian College, Apalit | Web Application Development | BS in Information System 
+			</p>
 		</span>
 
 	</div>
 
+	<div id="blackbg" onclick="hidePanel()">
+	</div>
 
-
-
+	<div id="toggle">
+		<img onclick="showPanel()" id="togglebtn" src="images/menu.png">
+	</div>
 
 	<div id="container">	
 	</div>
 
+	<script type="text/javascript">
+		
+		function showPanel(){
+			document.getElementById('nav').style.margin = 0;
+			document.getElementById('blackbg').innerHTML = "&nbsp";
+			document.getElementById('blackbg').style.height = "100%";
 
+		}
+		function hidePanel(){
+			document.getElementById('nav').style.margin = "-240px";
+			document.getElementById('blackbg').innerHTML = "";
+			document.getElementById('blackbg').style.height = 0;
+		}
+
+	</script>
 </body>
 </html>
