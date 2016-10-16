@@ -7,31 +7,31 @@ ___________
  > match all the pair cards.
 ___________
 #Reasons of Making:
- > Project
+ > Project in WAD
 ___________
 #Person Behind:
  * Ross Alquiroz
-   - code (primary page Difficulty)
+    - code (primary page Difficulty)
  * Lorenz Florentino
-   > code ( navigation [reload,restart,information,counting sym.])
+    - code ( navigation [reload,restart,information,counting sym.])
  * Cristian Quiza
-   > code (color scheme [navigation])
+    - code (color scheme [navigation])
  * Eldrin Bernardino 
-   > Design (css)
+    - Design (css)
  * Rhez Sean Crisostomo
-   > CSS
+    - CSS
  * Mark Paul Caneda
-   > CSS
+    - CSS
  * Angela Mikaela R. Requinto
-   > Researcher,Documentation, (read me)
+    - Researcher,Documentation, (read me)
  * Chyrine Cortez
-   > Sounds,Researcher
+    - Sounds,Researcher
  * Allyson Tubtub
-   > About us (page)
+    - About us (page)
  * Marella Inductivo
-   > About us (laverdad)
+    - About us (laverdad)
  * Gerald Guzman
-   > About us (page)
+    - About us (page)
 #Special Thank to :
  * Mr. Rodrigo Galura
 
