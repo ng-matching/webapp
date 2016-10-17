@@ -6,9 +6,22 @@ ___________
 ##How To Play:
  > Match all the pair cards.
 ___________
+##Features:
+ * Arcade Mode
+      - Easy (12 cards)
+      - Intermediate (20 cards)
+      - Hard (28 cards)
+ * Time Attack
+      - Easy (12 cards)
+      - Intermediate (20 cards)
+      - Hard (28 cards)
+ * Color Scheme selection
+ * Restart, Home ,Quit, guesses, tries 
+____________
+
 ###Reasons of Making:
- > Project in WAD
-___________
+ > Project by BS INFORMATION SYSTEM in Web Application and to apply what we learn.
+
 ###Person Behind:
  * Lynyrd Ross Alquiroz
     - code (primary page Difficulty)
@@ -36,4 +49,10 @@ ___________
 
 ###Special Thank to :
  * Mr. Rodrigo Galura
+
+### Meetings and Preparations:
+ * October 4'16 - pre-planning 
+ * October 7'16 - Tasking
+ * October 11'16- Improving features of the game
+ * October 15'16- updates
 
