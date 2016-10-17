@@ -26,7 +26,7 @@
 				&nbsp
 			</p> 
 			
-			<hr color="#49943A" width="82%">
+			<hr color="#ffff99" width="82%">
 			
 			<p id="difficulty">
 				&nbsp
@@ -34,18 +34,18 @@
 		</span>
 
 		<div id="themeChange">
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
+			<div onclick="changeColor(1)" class="changebox" id="change1" style="background: white;"></div>
+			<div onclick="changeColor(2)" class="changebox" id="change1" style="background: yellow;"></div>
+			<div onclick="changeColor(3)" class="changebox" id="change1" style="background: green;"></div>
+			<div onclick="changeColor(4)" class="changebox" id="change1" style="background: blue;"></div>
+			<div onclick="changeColor(5)" class="changebox" id="change1" style="background: violet;"></div>
+			<div onclick="changeColor(6)" class="changebox" id="change1" style="background: orange;"></div>
+			<div onclick="changeColor(7)" class="changebox" id="change1" style="background: brown;"></div>
+			<div onclick="changeColor(8)" class="changebox" id="change1" style="background: pink;"></div>
+			<div onclick="changeColor(9)" class="changebox" id="change1" style="background: red;"></div>
 		</div>
 
-		<span style="position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
+		<span style="border-top: 1px solid #ffff99; position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
 			<p id="aboutus" >
 			<a href="#" style="color: #AFB2B3; text-decoration: none;"> About Us </a> | &copy All Rights Reserve 2016 | La Verdad Christian College, Apalit | Web Application Development | BS in Information System 
 			</p>
@@ -56,12 +56,28 @@
 	<div id="blackbg" onclick="hidePanel()">
 	</div>
 
-	<div id="toggle">
-		<img onclick="showPanel()" id="togglebtn" src="images/menu.png">
-	</div>
-
 	<div id="container">
+		<div id="toggle">
+			<img onclick="showPanel()" id="togglebtn" src="images/menu.png">
+		</div>
+			<div id="status" >
+				<div id="btn-symbols">
+					<div id="time-number">
+						<img class="symbols" id="btn-time" src="images/time.png" style="width: 25% ">
+						<div class="symbols" id="btn-time-num" style="margin-left: 12%;">00:00</div>
+					</div>
+					<div id="flip-number">
+						<img class="symbols" id="btn-flip" src="images/flip.png" style="width: 40px ">
+						<div class="symbols" id="btn-time-flip" style="margin-left: 13%;"></div>
+					</div>
+					<div id="matched-number">
+						<img class="symbols" id="btn-matched" src="images/matched.png" style="width: 43px ">
+						<div class="symbols" id="btn-time-matched" style="margin-left: 12%;"></div>
+					</div>
+				</div>
+			</div>
 		<div>
+			
 		</div>
 	</div>
 
@@ -71,6 +87,38 @@
 	<img id="instruction" src="images/howToPlay.png">
 
 	<script type="text/javascript">
+		function changeColor(num){
+			if(num == 1){
+				document.getElementById('container').style.background = "white";
+			}
+			if(num == 2){
+				document.getElementById('container').style.background = "yellow";
+			}
+            if(num == 3){
+				document.getElementById('container').style.background = "green";
+			}
+            if(num == 4){
+				document.getElementById('container').style.background = "blue";
+			}
+			if(num == 5){
+				document.getElementById('container').style.background = "violet";
+			}
+            if(num == 6){
+				document.getElementById('container').style.background = "orange";
+			}
+            if(num == 7){
+				document.getElementById('container').style.background = "brown";
+			}
+			if(num == 8){
+				document.getElementById('container').style.background = "pink";
+			}
+            if(num == 9){
+				document.getElementById('container').style.background = "red";
+			}
+
+
+
+		}
 		function showPanel(){
 			document.getElementById('nav').style.margin = 0;
 			document.getElementById('blackbg').style.visibility = "visible";

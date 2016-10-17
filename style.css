@@ -2,6 +2,10 @@
 @media screen and (max-width: 1999px){
 	body {
 		margin: 0px;
+		font-family: 'Segoe UI Light';
+	}
+	#btns{
+		cursor: pointer;
 	}
 	#black{
 		position: absolute;
@@ -30,20 +34,55 @@
 		visibility: hidden;
 	}
 
-	#container {
+	#togglebtn{
+		visibility: hidden;
+	}
+
+	#status{
+		background: #ffff99;
+		width: 480px;
+		height: 10%;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px; 
+		position: absolute;
+		top: 0;
+		left: 28%; 
+		box-shadow: 0 5px 15px black;
+	}
+	.symbols{
+		float: left;
+		height: auto;
+		width: 30%;
+		font-size: 30px;
+		font-family: 'Segoe UI Semibold';
+	}
+	#time-number{
+		position: absolute;
+		left: 5%;
+		top: 15%;
+	}
+	#flip-number{
+		position: absolute;
+		left: 41%;
+		top: 15%;
+	}
+	#matched-number{
+		position: absolute;
+		left: 73%;
+		top: 15%;
+	}
+
+
+
+
+
+	#container{
 		background: #0A8C8A; 
 		float: left;
 		width: 80%;
 		left: 20%;
 		position: absolute;
 		height: 100%;
-	}
-	#toggle{
-		float: left;
-		height: 0;
-	}
-	#togglebnt{
-		visibility: hidden;
 	}
 	#black{
 		visibility: hidden;
@@ -64,6 +103,7 @@
 		float: left;
 		box-shadow: -2px 2px 15px black;
 		border-radius: 3px;
+		cursor: pointer;
 	}
 	#themeChange{
 		top: 62%;
@@ -71,8 +111,43 @@
 		position: relative;
 	}
 }
+@media screen and (max-width: 1200px){
+	#status{
+		left: 26%;
+	}
+}
+@media screen and (max-width: 1100px){
+	#status{
+		left: 23%;
+	}
+}
+@media screen and (max-width: 1000px){
+	#status{
+		left: 19%;
+	}
+}
+@media screen and (max-width: 900px){
+	#status{
+		left: 16%;
+	}
+}
+@media screen and (max-width: 800px){
+	#status{
+		left: 13%;
+	}
+}
 
 @media screen and (max-width: 768px){
+	#status{
+		background: #ffff99;
+		width: 70%;
+		height: 7%;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 0; 
+		position: absolute;
+		left: 30%; 
+		box-shadow: 0 5px 15px black;
+	}
 	#nav {
 	width: 240px;
 	z-index: 10;
@@ -82,25 +157,10 @@
 		font-size: 8px;
 	}
 	#container{
-		height: 94.1%;
+		height: 100%;
 		width: 100%;
-		top: 39.3px;
 		left: 0;
 		float: left;
-	}
-	#toggle{
-		float: left;
-		width: 100%;
-		height: 10%;
-		position: relative;
-		background-color: gray;
-		z-index: 1;
-	}
-	#togglebtn{
-		visibility: show;
-		height: 25px;
-		padding: 5.5px 5px 5px 5px;
-		width: auto;
 	}
 	#instruction{
 		width: 80%;
