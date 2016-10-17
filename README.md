@@ -17,10 +17,13 @@ ___________
       - Hard (28 cards)
  * Color Scheme selection
  * Restart, Home ,Quit, guesses, tries 
+
 ____________
 
 ###Reasons of Making:
- > Project by BS INFORMATION SYSTEM in Web Application and to apply what we learn.
+ > A Project by BS INFORMATION SYSTEM in Web Application to apply what we learn.
+
+____________
 
 ###Person Behind:
  * Lynyrd Ross Alquiroz
@@ -46,9 +49,12 @@ ____________
  * Gerald Guzman
     - About us (page)
 
+_____________
 
 ###Special Thank to :
  * Mr. Rodrigo Galura
+
+______________
 
 ### Meetings and Preparations:
  * October 4'16 - pre-planning 
