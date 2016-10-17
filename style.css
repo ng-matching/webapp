@@ -1,57 +1,76 @@
-body {
-	margin: 0px;
-}
 
+@media screen and (max-width: 1999px){
+	body {
+		margin: 0px;
+	}
+	#black{
+		position: absolute;
+		background: black;
+		height: 100%;
+		width: 100%;
+		z-index: 20;
+		opacity: .6;
+	}
 
-#nav {
-	background: #333738;
-	float: left;
-	width: 20%;
-	height: 100%;
-	position: absolute;
-}
+	#nav {
+		background: #333738;
+		float: left;
+		width: 20%;
+		height: 100%;
+		position: absolute;
+	}
 
-#blackbg{
-	height: 0;
-	width: 100%;
-	background-color: black;
-	position: absolute;
-	z-index: 9;
-	opacity: .6;
-}
+	#blackbg{
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		position: absolute;
+		z-index: 9;
+		opacity: .6;
+		visibility: hidden;
+	}
 
-#container {
-	background: #0A8C8A; 
-	float: left;
-	width: 80%;
-	left: 20%;
-	position: absolute;
-	height: 100%;
+	#container {
+		background: #0A8C8A; 
+		float: left;
+		width: 80%;
+		left: 20%;
+		position: absolute;
+		height: 100%;
+	}
+	#toggle{
+		float: left;
+		height: 0;
+	}
+	#togglebnt{
+		visibility: hidden;
+	}
+	#black{
+		visibility: hidden;
+	}
+	#instruction{
+		visibility: hidden;
+		z-index: 20;
+		position: absolute;
+		width: 35%;
+		height: auto;
+		top: 30%;
+		left: 32%;
+	}
+	.changebox{
+		width: 21%;
+		height: 40px;
+		margin: 4%;
+		float: left;
+		box-shadow: -2px 2px 15px black;
+		border-radius: 3px;
+	}
+	#themeChange{
+		top: 62%;
+		left: 7%;
+		position: relative;
+	}
 }
-#toggle{
-	float: left;
-	height: 0;
-}
-#togglebnt{
-	visibility: hidden;
-}
-
-#container2{
-	margin-left: 5%;
-}
-.color{
-	width: 25%;
-	height: 20%;
-	float: left; 
-	margin-left: 3%;
-	margin-top: 5%;	
-
-}
-.color:hover{
-	opacity: 0.5;
-}
-
-
 
 @media screen and (max-width: 768px){
 	#nav {
@@ -83,7 +102,16 @@ body {
 		padding: 5.5px 5px 5px 5px;
 		width: auto;
 	}
+	#instruction{
+		width: 80%;
+		height: auto;
+		top: 40%;
+		left: 10%;
+	}
+	.card{
+		width: 20%;
+		height: auto;
+	}
 }
-
 
 

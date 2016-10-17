@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Matching</title>
-	<script src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width = device - width, initial-scale = 1.0">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3\font-awesome-4.6.3\css\font-awesome.min.css">
@@ -10,12 +9,14 @@
 
 </head>
 <body>
+
+		
 	<div id="nav">
 		
 		<img src="images\logo.png" style="position: absolute; width: 90%; height: auto; left: 5%; top: 3%;">
 		
 		<div id="btns" >
-		<img src="images\info.png" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
+		<img onclick="howToPlay()" src="images\info.png" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
 		<img src="images\quit.png" style="position: absolute; width: 20%; height: auto; left: 40%; top: 22%;">
 		<img src="images\restart.png" style="position: absolute; width: 20%; height: auto; left: 70%; top: 22%;">
 		</div>
@@ -32,22 +33,19 @@
 			</p>
 		</span>
 
-		<div id="container2" style="position: absolute; width: 100%; height: 40%; background: none; top: 60%;">
-
-		<div class="color" onclick="myFunction('1')" style="border-top-left-radius: 20%; background: #00FFFF;"></div>
-		<div class="color" onclick="myFunction('2')" style="background: #A52A2A;"></div>
-		<div class="color" onclick="myFunction('3')" style="border-top-right-radius: 20%;  background: #7FFF00;"></div>
-		<div class="color" onclick="myFunction('4')" style="background: #6495ED;"></div>
-		<div class="color" onclick="myFunction('5')" style="background: #0000FF;"></div>
-		<div class="color" onclick="myFunction('6')" style="background: #DC143C;"></div>
-		<div class="color" onclick="myFunction('7')" style="border-bottom-left-radius: 20%; background: #FF1493;"></div>
-		<div class="color" onclick="myFunction('8')" style="background: #90EE90;"></div>
-		<div class="color" onclick="myFunction('9')" style="border-bottom-right-radius: 20%; background: #778899;"></div>
-		
+		<div id="themeChange">
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
+			<div class="changebox" id="change1" style="background: white;"></div>
 		</div>
 
-
-		<span style="position: absolute; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
+		<span style="position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
 			<p id="aboutus" >
 			<a href="#" style="color: #AFB2B3; text-decoration: none;"> About Us </a> | &copy All Rights Reserve 2016 | La Verdad Christian College, Apalit | Web Application Development | BS in Information System 
 			</p>
@@ -62,8 +60,37 @@
 		<img onclick="showPanel()" id="togglebtn" src="images/menu.png">
 	</div>
 
-	<div id="container">	
+	<div id="container">
+		<div>
+		</div>
 	</div>
+
+	<div id="black" onclick="closeHow()">
+		
 	</div>
+	<img id="instruction" src="images/howToPlay.png">
+
+	<script type="text/javascript">
+		function showPanel(){
+			document.getElementById('nav').style.margin = 0;
+			document.getElementById('blackbg').style.visibility = "visible";
+
+		}
+		function hidePanel(){
+			document.getElementById('nav').style.margin = "-240px";
+			document.getElementById('blackbg').style.visibility = "hidden";
+		}
+
+		function closeHow(){
+			document.getElementById('black').style.visibility = "hidden" ;
+			document.getElementById('instruction').style.visibility = "hidden";
+		}
+		function howToPlay(){
+			document.getElementById('black').style.visibility = "visible";
+			document.getElementById('instruction').style.visibility = "visible";
+
+		}
+
+	</script>
 </body>
 </html>
