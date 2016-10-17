@@ -36,6 +36,23 @@ body {
 	visibility: hidden;
 }
 
+#container2{
+	margin-left: 5%;
+}
+.color{
+	width: 25%;
+	height: 20%;
+	float: left; 
+	margin-left: 3%;
+	margin-top: 5%;	
+
+}
+.color:hover{
+	opacity: 0.5;
+}
+
+
+
 @media screen and (max-width: 768px){
 	#nav {
 	width: 240px;
@@ -67,5 +84,6 @@ body {
 		width: auto;
 	}
 }
+
 
 
