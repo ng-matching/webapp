@@ -34,15 +34,15 @@
 		</span>
 
 		<div id="themeChange">
-			<div onclick="changeColor(1)" class="changebox" id="change1" style="background: white;"></div>
-			<div onclick="changeColor(2)" class="changebox" id="change1" style="background: yellow;"></div>
-			<div onclick="changeColor(3)" class="changebox" id="change1" style="background: green;"></div>
-			<div onclick="changeColor(4)" class="changebox" id="change1" style="background: blue;"></div>
-			<div onclick="changeColor(5)" class="changebox" id="change1" style="background: violet;"></div>
-			<div onclick="changeColor(6)" class="changebox" id="change1" style="background: orange;"></div>
-			<div onclick="changeColor(7)" class="changebox" id="change1" style="background: brown;"></div>
-			<div onclick="changeColor(8)" class="changebox" id="change1" style="background: pink;"></div>
-			<div onclick="changeColor(9)" class="changebox" id="change1" style="background: red;"></div>
+			<div onclick="changeColor(1)" class="changebox" id="change1" style="background: #2F4F4F;"></div>
+			<div onclick="changeColor(2)" class="changebox" id="change1" style="background: #FFFFF0;"></div>
+			<div onclick="changeColor(3)" class="changebox" id="change1" style="background: #6495ED;"></div>
+			<div onclick="changeColor(4)" class="changebox" id="change1" style="background: #B8860B;"></div>
+			<div onclick="changeColor(5)" class="changebox" id="change1" style="background: #ADFF2F;"></div>
+			<div onclick="changeColor(6)" class="changebox" id="change1" style="background: #F0E68C;"></div>
+			<div onclick="changeColor(7)" class="changebox" id="change1" style="background: #FF8C00;"></div>
+			<div onclick="changeColor(8)" class="changebox" id="change1" style="background: #E0FFFF;"></div>
+			<div onclick="changeColor(9)" class="changebox" id="change1" style="background: #DA70D6;"></div>
 		</div>
 
 		<span style="border-top: 1px solid #ffff99; position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
@@ -56,27 +56,29 @@
 	<div id="blackbg" onclick="hidePanel()">
 	</div>
 
-	<div id="container">
-		<div id="toggle">
-			<img onclick="showPanel()" id="togglebtn" src="images/menu.png">
+	<div id="container" style="background: #2F4F4F;">
+		<div id="toggle" onclick="showPanel()">
+			<img id="togglebtn" src="images/menu.png">
 		</div>
+		<div>
 			<div id="status" >
 				<div id="btn-symbols">
 					<div id="time-number">
-						<img class="symbols" id="btn-time" src="images/time.png" style="width: 25% ">
-						<div class="symbols" id="btn-time-num" style="margin-left: 12%;">00:00</div>
+						<img class="symbols" id="btn-time" src="images/time.png">
+						<div class="symbols" id="btn-time-num">00:00</div>
 					</div>
 					<div id="flip-number">
-						<img class="symbols" id="btn-flip" src="images/flip.png" style="width: 40px ">
-						<div class="symbols" id="btn-time-flip" style="margin-left: 13%;"></div>
+						<img class="symbols" id="btn-flip" src="images/flip.png">
+						<div class="symbols" id="btn-flip-num"></div>
 					</div>
 					<div id="matched-number">
-						<img class="symbols" id="btn-matched" src="images/matched.png" style="width: 43px ">
-						<div class="symbols" id="btn-time-matched" style="margin-left: 12%;"></div>
+						<img class="symbols" id="btn-matched" src="images/matched.png">
+						<div class="symbols" id="btn-matched-num"></div>
 					</div>
 				</div>
 			</div>
-		<div>
+		</div>
+		<div id="gamePlay">
 			
 		</div>
 	</div>
@@ -89,35 +91,32 @@
 	<script type="text/javascript">
 		function changeColor(num){
 			if(num == 1){
-				document.getElementById('container').style.background = "white";
+				document.getElementById('container').style.background = "#2F4F4F";
 			}
 			if(num == 2){
-				document.getElementById('container').style.background = "yellow";
+				document.getElementById('container').style.background = "#FFFFF0";
 			}
             if(num == 3){
-				document.getElementById('container').style.background = "green";
+				document.getElementById('container').style.background = "#6495ED";
 			}
             if(num == 4){
-				document.getElementById('container').style.background = "blue";
+				document.getElementById('container').style.background = "#B8860B";
 			}
 			if(num == 5){
-				document.getElementById('container').style.background = "violet";
+				document.getElementById('container').style.background = "#ADFF2F";
 			}
             if(num == 6){
-				document.getElementById('container').style.background = "orange";
+				document.getElementById('container').style.background = "#F0E68C";
 			}
             if(num == 7){
-				document.getElementById('container').style.background = "brown";
+				document.getElementById('container').style.background = "#FF8C00";
 			}
 			if(num == 8){
-				document.getElementById('container').style.background = "pink";
+				document.getElementById('container').style.background = "#E0FFFF";
 			}
             if(num == 9){
-				document.getElementById('container').style.background = "red";
+				document.getElementById('container').style.background = "#DA70D6";
 			}
-
-
-
 		}
 		function showPanel(){
 			document.getElementById('nav').style.margin = 0;

@@ -72,6 +72,25 @@
 		top: 15%;
 	}
 
+	#btn-time{
+		width: 25%; 
+	}
+	#btn-flip{
+		width: 40px;
+	}
+	#btn-matched{
+		width: 43px;
+	}
+
+	#btn-time-num{
+		margin-left: 12%;
+	}
+	#btn-flip-num{
+		margin-left: 13%;
+	}
+	#btn-matched-num{
+		margin-left: 12%;
+	}
 
 
 
@@ -110,6 +129,16 @@
 		left: 7%;
 		position: relative;
 	}
+	#gamePlay{
+		background: #469198;
+		width: 94%;
+		height: 80%;
+		left: 3%;
+		top: 4%;
+		position: relative;
+		border-radius: 10px;
+	}
+
 }
 @media screen and (max-width: 1200px){
 	#status{
@@ -138,20 +167,85 @@
 }
 
 @media screen and (max-width: 768px){
+	#gamePlay{
+		width: 90%;
+		height: 86%;
+		left: 5%;
+		top: 4%;
+	}
 	#status{
 		background: #ffff99;
 		width: 70%;
-		height: 7%;
+		height: 6%;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 0; 
 		position: absolute;
 		left: 30%; 
 		box-shadow: 0 5px 15px black;
 	}
+	.symbols{
+		font-size: 20px;
+	}
+
+	#time-number{
+		position: absolute;
+		left: 5%;
+		top: 15%;
+	}
+	#flip-number{
+		position: absolute;
+		left: 41%;
+		top: 15%;
+	}
+	#matched-number{
+		position: absolute;
+		left: 73%;
+		top: 15%;
+	}
+
+	#btn-time{
+		width: 18%; 
+	}
+	#btn-flip{
+		width: 24px;
+	}
+	#btn-matched{
+		width: 26px;
+	}
+
+	#btn-time-num{
+		margin-top: -2%;
+		margin-left: 10%;
+	}
+	#btn-flip-num{
+		margin-left: 15%;
+		margin-top: -3%;
+	}
+	#btn-matched-num{
+		margin-left: 12%;
+		margin-top: -3%;
+	}
+
+	#toggle{
+		width: 15%;
+		height: 6%;
+		background: #ffff99;
+		border-bottom-right-radius: 10px; 
+		box-shadow: 0 5px 15px black;
+	}
+	#togglebtn{
+		visibility: visible;
+		position: absolute;
+		top: 1%;
+		left: 4%;
+		width: 25px	;
+		height: 18px;
+	}
+
 	#nav {
-	width: 240px;
-	z-index: 10;
-	margin-left: -240px;
+		width: 240px;
+		z-index: 10;
+		margin-left: -240px;
 	}
 	#aboutus{
 		font-size: 8px;
