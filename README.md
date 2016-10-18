@@ -5,6 +5,11 @@
 ##How To Play:
  > Match all the pair cards.
 ___________
+
+![How to](https://github.com/ng-matching/webapp/blob/master/images/howToPlay-1.png)
+
+___________
+
 ##Features:
  * Arcade Mode
       - Easy (12 cards)
