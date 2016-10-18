@@ -16,9 +16,9 @@
 		<img src="images\logo.png" style="position: absolute; width: 90%; height: auto; left: 5%; top: 3%;">
 		
 		<div id="btns" >
-		<img onclick="howToPlay()" src="images\info.png" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
-		<img onclick="quit()"src="images\quit.png" style="position: absolute; width: 20%; height: auto; left: 40%; top: 22%;">
-		<img onclick="reset()"src="images\restart.png" style="position: absolute; width: 20%; height: auto; left: 70%; top: 22%;">
+		<img onclick="howToPlay()" src="images\info.png" id="hoverHow" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
+		<img onclick="quit()"src="images\quit.png" id="hoverQuit" style="position: absolute; width: 20%; height: auto; left: 40%; top: 22%;">
+		<img onclick="reset()"src="images\restart.png" id="hoverReset" style="position: absolute; width: 20%; height: auto; left: 70%; top: 22%;">
 		</div>
 
 		<span style="position: absolute; top: 35%; background: #141617; width: 80%; left: 10%; font-size: 24px; text-align: center; font-family: JungleFever; color: #49943A; border-radius: 5px;"> 
@@ -34,19 +34,19 @@
 		</span>
 
 		<div id="themeChange">
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
-			<div class="changebox" id="change1" style="background: white;"></div>
+			<div onclick="changeColor(1)" class="changebox" id="change1" style="background: #696969;"></div>
+			<div onclick="changeColor(2)" class="changebox" id="change1" style="background: #FFFFF0;"></div>
+			<div onclick="changeColor(3)" class="changebox" id="change1" style="background: #6495ED;"></div>
+			<div onclick="changeColor(4)" class="changebox" id="change1" style="background: #B8860B;"></div>
+			<div onclick="changeColor(5)" class="changebox" id="change1" style="background: #ADFF2F;"></div>
+			<div onclick="changeColor(6)" class="changebox" id="change1" style="background: #F0E68C;"></div>
+			<div onclick="changeColor(7)" class="changebox" id="change1" style="background: #FF8C00;"></div>
+			<div onclick="changeColor(8)" class="changebox" id="change1" style="background: #E0FFFF;"></div>
+			<div onclick="changeColor(9)" class="changebox" id="change1" style="background: #DA70D6;"></div>
 		</div>
 
 		<span style="border-top: 1px solid #ffff99; position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
-			<p id="aboutus" >
+			<p id="aboutus">
 			<a href="#" style="color: #AFB2B3; text-decoration: none;"> About Us </a> | &copy All Rights Reserve 2016 | La Verdad Christian College, Apalit | Web Application Development | BS in Information System 
 			</p>
 		</span>
@@ -100,7 +100,45 @@
 	<div id="black" onclick="closeHow()">	</div>
 	<img id="instruction" src="images/howToPlay.png">
 
-	<script type="text/javascript">
+	<script type="text/javascript">	
+		function changeColor(num){
+			if(num == 1){
+				document.getElementById('container').style.background = "#696969";
+				document.getElementById('gamePlay').style.background = "#FFFACD";
+			}
+			if(num == 2){
+				document.getElementById('container').style.background = "#FFFFF0";
+				document.getElementById('gamePlay').style.background = "#FFFF99";
+			}
+            if(num == 3){
+				document.getElementById('container').style.background = "#6495ED";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+            if(num == 4){
+				document.getElementById('container').style.background = "#B8860B";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+			if(num == 5){
+				document.getElementById('container').style.background = "#ADFF2F";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+            if(num == 6){
+				document.getElementById('container').style.background = "#F0E68C";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+            if(num == 7){
+				document.getElementById('container').style.background = "#FF8C00";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+			if(num == 8){
+				document.getElementById('container').style.background = "#E0FFFF";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+            if(num == 9){
+				document.getElementById('container').style.background = "#DA70D6";
+				document.getElementById('gamePlay').style.background = "#000000";
+			}
+		}
 		function showPanel(){
 			document.getElementById('nav').style.margin = 0;
 			document.getElementById('blackbg').style.visibility = "visible";
