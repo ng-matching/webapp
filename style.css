@@ -13,7 +13,7 @@
 		height: 100%;
 		width: 100%;
 		z-index: 20;
-		opacity: .6;
+		opacity: .7;
 	}
 
 	#nav {
@@ -30,7 +30,7 @@
 		background-color: black;
 		position: absolute;
 		z-index: 9;
-		opacity: .6;
+		opacity: .7;
 		visibility: hidden;
 	}
 
@@ -138,6 +138,77 @@
 		position: relative;
 		border-radius: 10px;
 	}
+	#quitBox{
+		position: absolute;
+		top: 30%;
+		left: 35%;
+		visibility: hidden;
+		z-index: 20;
+	}
+	#quitBlack{
+		background: black;
+		opacity: .7;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		visibility: hidden;
+		z-index: 20;
+	}
+	#sureQuit{
+		width: 50%;
+		height: auto;
+	}
+	#quitCancel{
+		width: 18%;
+		height: auto;
+		margin: 2% 1%;
+		margin-left: 5.5%;
+	}
+	#quitOkay{
+		width: 18%;
+		height: auto;
+		margin: 2% 1%;
+	}
+
+	#resetBox{
+		position: absolute;
+		top: 30%;
+		left: 35%;
+		visibility: hidden;
+		z-index: 20;
+	}
+	#resetBlack{
+		background: black;
+		opacity: .7;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		visibility: hidden;
+		z-index: 20;
+	}
+	#sureReset{
+		width: 50%;
+		height: auto;
+	}
+	#resetCancel{
+		width: 18%;
+		height: auto;
+		margin: 2% 1%;
+		margin-left: 5.5%;
+	}
+	#resetOkay{
+		width: 18%;
+		height: auto;
+		margin: 2% 1%;
+	}
+
+
+
+
+
+
+
+
 
 }
 @media screen and (max-width: 1200px){
@@ -167,11 +238,49 @@
 }
 
 @media screen and (max-width: 768px){
+	#sureQuit{
+		width: 90%;
+	}
+	#quitCancel{
+		width: 30%;
+		margin: 5% 3%;
+		margin-left: 11%;
+	}
+	#quitOkay{
+		width: 30%;
+		height: auto;
+		margin: 5% 3%;
+	}
+	#quitBox{
+		top: 28%;
+		left: 10%;
+	}
+
+
+	#sureReset{
+		width: 90%;
+	}
+	#resetCancel{
+		width: 30%;
+		margin: 5% 3%;
+		margin-left: 11%;
+	}
+	#resetOkay{
+		width: 30%;
+		height: auto;
+		margin: 5% 3%;
+	}
+	#resetBox{
+		top: 28%;
+		left: 10%;
+	}
+
+
 	#gamePlay{
 		width: 90%;
-		height: 86%;
+		height: 88%;
 		left: 5%;
-		top: 4%;
+		top: 3%;
 	}
 	#status{
 		background: #ffff99;
@@ -259,7 +368,7 @@
 	#instruction{
 		width: 80%;
 		height: auto;
-		top: 40%;
+		top: 28%;
 		left: 10%;
 	}
 	.card{
