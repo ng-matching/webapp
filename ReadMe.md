@@ -4,11 +4,11 @@
  
 ## How To Play:
  
-  > Match all the pair cards.
+  > Pair all cards to their corresponding matches.
   
 ## The Play Ground:
 
-# [Arcade](https://ng-matching.github.io/webapp/ArcadeEasy.html)
+#[Arcade](https://ng-matching.github.io/webapp/ArcadeEasy.html)
  
  ___________
  
@@ -37,13 +37,13 @@
  
  ### Person Behind:
   * Lynyrd Ross Alquiroz
-     - code (primary page Difficulty)
+     - code (primary page Difficulty, Back-end Quality check)
   * Lorenz Florentino
      - code ( navigation [reload, restart, information, counting sym.])
   * Cristian Quiza
      - code (color scheme [navigation])
   * Eldrin Bernardino 
-     - Design (css)
+     - Design (css, Front-end Quality Check)
   * Rhez Sean Crisostomo
      - CSS
   * Mark Paul Caneda
