@@ -31,7 +31,7 @@
  ____________
  
  ### Reasons of Making:
-  > A Project by BS INFORMATION SYSTEM in Web Application to apply what we learn.
+  > A Game - inspired Project by BS INFORMATION SYSTEM in Web Application with basic AngularJS application.
  
  ____________
  
