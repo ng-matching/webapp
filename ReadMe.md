@@ -37,27 +37,27 @@
  
  ### Person Behind:
   * Lynyrd Ross Alquiroz
-     - code (primary page Difficulty, Back-end Quality check)
+     - code (Primary page Difficulty, Back-end Quality check)
   * Lorenz Florentino
-     - code ( navigation [reload, restart, information, counting sym.])
+     - code (Navigation - Reload, restart, information, counting simulator)
   * Cristian Quiza
-     - code (color scheme [navigation])
+     - code (Navigation - Color Scheme)
   * Eldrin Bernardino 
-     - Design (css, Front-end Quality Check)
+     - Design (CSS, Front-end Quality Check)
   * Rhez Sean Crisostomo
      - CSS
   * Mark Paul Caneda
      - CSS
   * Angela Mikaela R. Requinto
-     - Researcher, Documentation, (read me)
+     - Researcher, Over-all Documentation manager (Read Me)
   * Chyrine Cortez
      - Sounds, Researcher
   * Allyson Tubtub
-     - About us (page)
+     - About us (Main Page, Coordinator)
   * Marella Inductivo
-     - About us (laverdad)
+     - About us (Laverdad)
   * Gerald Guzman
-     - About us (page)
+     - About us (Page)
  
  _____________
  
