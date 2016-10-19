@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matching</title>
+	<link rel="stylesheet" type="text/css" href="ArcadeEasy.css">
+	<meta name="viewport" content="width = device - width, initial-scale = 1.0">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3\font-awesome-4.6.3\css\font-awesome.min.css">
+	<link rel="shortcut icon" href="images/icon.png">
+
+</head>
+<body>
+
+		
+	<div id="nav">
+		
+		<img src="images\logo.png" style="position: absolute; width: 90%; height: auto; left: 5%; top: 3%;">
+		
+		<div id="btns" >
+		<img onclick="howToPlay()" src="images\info.png" id="hoverHow" style="position: absolute; width: 20%; height: auto; left: 10%; top: 22%;">
+		<img onclick="quit()"src="images\quit.png" id="hoverQuit" style="position: absolute; width: 20%; height: auto; left: 40%; top: 22%;">
+		<img onclick="reset()"src="images\restart.png" id="hoverReset" style="position: absolute; width: 20%; height: auto; left: 70%; top: 22%;">
+		</div>
+
+		<span style="position: absolute; top: 35%; background: #141617; width: 80%; left: 10%; font-size: 24px; text-align: center;color: #49943A; border-radius: 5px;"> 
+			<p id="mode">
+				&nbsp
+			</p> 
+			
+			<hr color="#ffff99" width="82%">
+			
+			<p id="difficulty">
+				&nbsp
+			</p>
+		</span>
+
+		<div id="themeChange">
+			<div onclick="changeColor(1)" class="changebox" id="change1" style="background: #848688;"></div>
+			<div onclick="changeColor(2)" class="changebox" id="change2" style="background: #D2D3D5;"></div>
+			<div onclick="changeColor(3)" class="changebox" id="change3" style="background: #FEFEFE;"></div>
+			<div onclick="changeColor(4)" class="changebox" id="change4" style="background: #FFFF99;"></div>
+			<div onclick="changeColor(5)" class="changebox" id="change5" style="background: #A3D3F1;"></div>
+			<div onclick="changeColor(6)" class="changebox" id="change6" style="background: #F8AE98;"></div>
+			<div onclick="changeColor(7)" class="changebox" id="change7" style="background: #BADDAC;"></div>
+			<div onclick="changeColor(8)" class="changebox" id="change8" style="background: #FFDA8F;"></div>
+			<div onclick="changeColor(9)" class="changebox" id="change9" style="background: #D496C2;"></div>
+		</div>
+
+		<span style="border-top: 1px solid #ffff99; position: absolute; position: absolute;left: 0; bottom: 0%; width: 100%; color: white; font-size: 9px; font-family: 'Segoe UI Light'; text-align: center; background: #141617; padding-top: 1%;padding-bottom: 1%;">
+			<p id="aboutus">
+			<a href="#" style="color: #AFB2B3; text-decoration: none;"> About Us </a> | &copy All Rights Reserve 2016 | La Verdad Christian College, Apalit | Web Application Development | BS in Information System 
+			</p>
+		</span>
+
+	</div>
+
+	<div id="blackbg" onclick="hidePanel()">
+	</div>
+
+	<div id="container">
+		<div id="toggle" onclick="showPanel()">
+			<img id="togglebtn" src="images/menu.png">
+		</div>
+		<div>
+			<div id="status" >
+				<div id="btn-symbols">
+					<div id="time-number">
+						<img class="symbols" id="btn-time" src="images/time.png">
+						<div class="symbols" id="btn-time-num">00:00</div>
+					</div>
+					<div id="flip-number">
+						<img class="symbols" id="btn-flip" src="images/flip.png">
+						<div class="symbols" id="btn-flip-num"></div>
+					</div>
+					<div id="matched-number">
+						<img class="symbols" id="btn-matched" src="images/matched.png">
+						<div class="symbols" id="btn-matched-num"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="gamePlay">
+			
+		</div>
+	</div>
+
+	<div id="quitBlack" onclick="closeQuit()">	</div>
+	<div id="quitBox">
+		<img id="sureQuit" src="images/sureQuit.png"><br>
+		<img id="quitCancel" src="images/cancel.png">
+		<img id="quitOkay" src="images/okay.png">
+	</div>
+
+	<div id="resetBlack" onclick="closeReset()"></div>
+	<div id="resetBox">
+		<img id="sureReset" src="images/sureReset.png"><br>
+		<img id="resetCancel" src="images/cancel.png">
+		<img id="resetOkay" src="images/okay.png">
+	</div>
+
+	<div id="black" onclick="closeHow()">	</div>
+	<img id="instruction" src="images/howToPlay.png">
+
+	<script type="text/javascript">	
+		function changeColor(num){
+			if(num == 1){
+				document.getElementById('container').style.background = "#4B4B4D";
+				document.getElementById('gamePlay').style.background = "#848688";
+			}
+			if(num == 2){
+				document.getElementById('container').style.background = "#96989A";
+				document.getElementById('gamePlay').style.background = "#D2D3D5";
+			}
+            if(num == 3){
+				document.getElementById('container').style.background = "#D2D3D5";
+				document.getElementById('gamePlay').style.background = "#FEFEFE";
+			}
+            if(num == 4){
+				document.getElementById('container').style.background = "#E2D56B";
+				document.getElementById('gamePlay').style.background = "#ffff99";
+			}
+			if(num == 5){
+				document.getElementById('container').style.background = "#66B2E2";
+				document.getElementById('gamePlay').style.background = "#A3D3F1";
+			}
+            if(num == 6){
+				document.getElementById('container').style.background = "#F3745C";
+				document.getElementById('gamePlay').style.background = "#F8AE98";
+			}
+            if(num == 7){
+				document.getElementById('container').style.background = "#3CB771";
+				document.getElementById('gamePlay').style.background = "#BADDAC";
+			}
+			if(num == 8){
+				document.getElementById('container').style.background = "#FAAC50";
+				document.getElementById('gamePlay').style.background = "#FFDA8F";
+			}
+            if(num == 9){
+				document.getElementById('container').style.background = "#A6709C";
+				document.getElementById('gamePlay').style.background = "#D496C2";
+			}
+		}
+		function showPanel(){
+			document.getElementById('nav').style.margin = 0;
+			document.getElementById('blackbg').style.visibility = "visible";
+
+		}
+		function hidePanel(){
+			document.getElementById('nav').style.margin = "-240px";
+			document.getElementById('blackbg').style.visibility = "hidden";
+		}
+
+		function closeHow(){
+			document.getElementById('black').style.visibility = "hidden" ;
+			document.getElementById('instruction').style.visibility = "hidden";
+		}
+		function howToPlay(){
+			document.getElementById('black').style.visibility = "visible";
+			document.getElementById('instruction').style.visibility = "visible";
+		}
+		function closeQuit(){
+			document.getElementById('quitBox').style.visibility = "hidden";
+			document.getElementById('quitBlack').style.visibility = "hidden";
+		}
+		function quit(){
+			document.getElementById('quitBox').style.visibility = "visible";
+			document.getElementById('quitBlack').style.visibility = "visible";
+		}
+		function closeReset(){
+			document.getElementById('resetBox').style.visibility = "hidden";
+			document.getElementById('resetBlack').style.visibility = "hidden";
+		}
+		function reset(){
+			document.getElementById('resetBox').style.visibility = "visible";
+			document.getElementById('resetBlack').style.visibility = "visible";
+		}
+
+	</script>
+</body>
+</html>
