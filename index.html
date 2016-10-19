@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html ng-app="matchApp">
+<head>
+	<title>Matching</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="ArcadeEasy.css"> -->
+	<meta name="viewport" content="width = device - width, initial-scale = 1.0">
+
+	<link rel="stylesheet" type="text/css" href="fonts/jungle-fever/stylesheet.css" />
+
+	<link rel="shortcut icon" href="images/icon.png">
+
+	<!-- angular js -->
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+
+</head>
+<body ng-view>
+
+	<!-- jquery -->
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- smoke plugins -->
+	<!-- <script type="text/javascript" src="smoke-v3.1.1/js/smoke.min.js"></script> -->
+
+	<!-- timer helper -->
+	<script type="text/javascript" src="timer-helper/jquery.stopwatch.js"></script>
+	<script type="text/javascript" src="timer-helper/countdown.js"></script>
+	<script type="text/javascript" src="timer-helper/string-prototype.js"></script>
+
+	<!-- random -->
+	<script type="text/javascript" src="shuffle-helper/shuffle-array.js"></script>
+
+	<script type="text/javascript">	
+		function changeColor(num){
+			if(num == 1){
+				document.getElementById('container').style.background = "#4B4B4D";
+				document.getElementById('gamePlay').style.background = "#848688";
+			}
+			if(num == 2){
+				document.getElementById('container').style.background = "#96989A";
+				document.getElementById('gamePlay').style.background = "#D2D3D5";
+			}
+            if(num == 3){
+				document.getElementById('container').style.background = "#D2D3D5";
+				document.getElementById('gamePlay').style.background = "#FEFEFE";
+			}
+            if(num == 4){
+				document.getElementById('container').style.background = "#E2D56B";
+				document.getElementById('gamePlay').style.background = "#ffff99";
+			}
+			if(num == 5){
+				document.getElementById('container').style.background = "#66B2E2";
+				document.getElementById('gamePlay').style.background = "#A3D3F1";
+			}
+            if(num == 6){
+				document.getElementById('container').style.background = "#F3745C";
+				document.getElementById('gamePlay').style.background = "#F8AE98";
+			}
+            if(num == 7){
+				document.getElementById('container').style.background = "#3CB771";
+				document.getElementById('gamePlay').style.background = "#BADDAC";
+			}
+			if(num == 8){
+				document.getElementById('container').style.background = "#FAAC50";
+				document.getElementById('gamePlay').style.background = "#FFDA8F";
+			}
+            if(num == 9){
+				document.getElementById('container').style.background = "#A6709C";
+				document.getElementById('gamePlay').style.background = "#D496C2";
+			}
+		}
+		function showPanel(){
+			document.getElementById('nav').style.margin = 0;
+			document.getElementById('blackbg').style.visibility = "visible";
+
+		}
+		function hidePanel(){
+			document.getElementById('nav').style.margin = "-240px";
+			document.getElementById('blackbg').style.visibility = "hidden";
+		}
+
+		function closeHow(){
+			document.getElementById('black').style.visibility = "hidden" ;
+			document.getElementById('instruction').style.visibility = "hidden";
+		}
+		function howToPlay(){
+			document.getElementById('black').style.visibility = "visible";
+			document.getElementById('instruction').style.visibility = "visible";
+		}
+		function closeQuit(){
+			document.getElementById('quitBox').style.visibility = "hidden";
+			document.getElementById('quitBlack').style.visibility = "hidden";
+		}
+		function quit(){
+			document.getElementById('quitBox').style.visibility = "visible";
+			document.getElementById('quitBlack').style.visibility = "visible";
+		}
+		function closeReset(){
+			document.getElementById('resetBox').style.visibility = "hidden";
+			document.getElementById('resetBlack').style.visibility = "hidden";
+		}
+		function reset(){
+			document.getElementById('resetBox').style.visibility = "visible";
+			document.getElementById('resetBlack').style.visibility = "visible";
+		}
+
+		function arcadeTimeAttack(i){
+			if(i == 1){
+				document.getElementById('arcade-btn').style.background = "#24507C";
+				document.getElementById('arcade-btn').style.color = "#90C3E9";
+				// document.getElementById('timeAttack-btn').style.background = "#A84A87";
+				// document.getElementById('timeAttack-btn').style.color = "#E7B8D5";
+			}else{
+				document.getElementById('arcade-btn').style.background = "#1E78BD";
+				document.getElementById('arcade-btn').style.color = "#90C3E9";
+				// document.getElementById('timeAttack-btn').style.background = "#793761";
+				// document.getElementById('timeAttack-btn').style.color = "#E7B8D5";
+			}
+			document.getElementById('easyMediumHard').style = "z-index: 2";
+		}
+		function easyMediumHard(i){
+			if(i == 1){
+				document.getElementById('easy-btn').style.background = "#3B4E29";
+				document.getElementById('easy-btn').style.color = "#fff9C1";
+				document.getElementById('medium-btn').style.background = "#EA8436";
+				document.getElementById('medium-btn').style.color = "#fff9C1";
+				document.getElementById('hard-btn').style.background = "#CA373C";
+				document.getElementById('hard-btn').style.color = "#fff9C1";
+			}else if(i == 2){
+				document.getElementById('easy-btn').style.background = "#90B54A";
+				document.getElementById('easy-btn').style.color = "#fff9C1";
+				document.getElementById('medium-btn').style.background = "#8B5229";
+				document.getElementById('medium-btn').style.color = "#fff9C1";
+				document.getElementById('hard-btn').style.background = "#CA373C";
+				document.getElementById('hard-btn').style.color = "#fff9C1";
+			}else{
+				document.getElementById('easy-btn').style.background = "#90B54A";
+				document.getElementById('easy-btn').style.color = "#fff9C1";
+				document.getElementById('medium-btn').style.background = "#EA8436";
+				document.getElementById('medium-btn').style.color = "#fff9C1";
+				document.getElementById('hard-btn').style.background = "#7D292B";
+				document.getElementById('hard-btn').style.color = "#fff9C1";
+			}
+			document.getElementById('cardTheme').style = "z-index: 2";
+		}
+
+		function cardChoice(num) {
+
+			switch (num) {
+				case 1:
+					document.getElementById('cardColor').style.boxShadow = "0 0 2px #000";
+
+					document.getElementById('cardNumber').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardLogo').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardPoker').style.boxShadow = "-2px 3px 5px black";
+					break;
+				case 2:
+					document.getElementById('cardNumber').style.boxShadow = "0 0 2px #000";
+
+					document.getElementById('cardColor').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardLogo').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardPoker').style.boxShadow = "-2px 3px 5px black";
+					break;
+				case 3:
+					document.getElementById('cardLogo').style.boxShadow = "0 0 2px #000";
+
+					document.getElementById('cardNumber').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardColor').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardPoker').style.boxShadow = "-2px 3px 5px black";
+					break;
+				case 4:
+					document.getElementById('cardPoker').style.boxShadow = "0 0 2px #000";
+
+					document.getElementById('cardLogo').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardNumber').style.boxShadow = "-2px 3px 5px black";
+					document.getElementById('cardColor').style.boxShadow = "-2px 3px 5px black";
+					break;				
+			}
+		
+			document.getElementById('startGame').style = "z-index: 2";
+		}
+	</script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
