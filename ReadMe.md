@@ -66,3 +66,49 @@
   * October 11'16- Improving features of the game
   * October 15'16- updates
  
+ 
+ ## Sample Cards:
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color1.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color3.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color5.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color7.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color13.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number1.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number4.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number7.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number2.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number14.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo1.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo4.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo7.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo2.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo14.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker1.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker4.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker7.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker2.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker14.png)
+ 
+ ## The Play Ground:
+ 
+ #[Arcade](https://ng-matching.github.io/webapp/ArcadeEasy.html)
+ 
