@@ -2,21 +2,21 @@
  
  ![logo](https://github.com/ng-matching/webapp/blob/master/images/logo.png)
  
- ##How To Play:
+## How To Play:
  
   > Match all the pair cards.
   
- ## The Play Ground:
+## The Play Ground:
 
- #[Arcade](https://ng-matching.github.io/webapp/ArcadeEasy.html)
+# [Arcade](https://ng-matching.github.io/webapp/ArcadeEasy.html)
  
  ___________
  
- ![How to](https://github.com/ng-matching/webapp/blob/master/images/howToPlay-1.png)
+ ![How to](https://github.com/ng-matching/webapp/blob/master/images/howToPlay.png)
  
  ___________
  
- ##Features:
+## Features:
   * Arcade Mode
        - Easy (12 cards)
        - Intermediate (20 cards)
@@ -30,12 +30,12 @@
  
  ____________
  
- ###Reasons of Making:
+ ### Reasons of Making:
   > A Project by BS INFORMATION SYSTEM in Web Application to apply what we learn.
  
  ____________
  
- ###Person Behind:
+ ### Person Behind:
   * Lynyrd Ross Alquiroz
      - code (primary page Difficulty)
   * Lorenz Florentino
@@ -61,7 +61,7 @@
  
  _____________
  
- ###Special Thank to :
+ ### Special Thank to :
   * Args
  
  ______________
@@ -74,12 +74,13 @@
  
  
  ## Sample Cards:
- ![](https://github.com/ng-matching/webapp/blob/master/cards/color1.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/color3.png)![](https://github.com/ng-matching/webapp/blob/master/cards/color5.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/color7.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/color12.png)
  
- ![](https://github.com/ng-matching/webapp/blob/master/cards/number1.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/number4.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number7.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number2.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number11.png)
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/color3.png)![](https://github.com/ng-matching/webapp/blob/master/cards/color5.png)![](https://github.com/ng-matching/webapp/blob/master/cards/color7.png)![](https://github.com/ng-matching/webapp/blob/master/cards/color12.png)
  
-![](https://github.com/ng-matching/webapp/blob/master/cards/logo1.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/logo4.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/logo7.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/logo2.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/logo10.png)
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/number4.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number7.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number2.png)![](https://github.com/ng-matching/webapp/blob/master/cards/number11.png)
+ 
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/logo4.png)![](https://github.com/ng-matching/webapp/blob/master/cards/logo7.png)![](https://github.com/ng-matching/webapp/blob/master/cards/logo2.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/logo10.png)
 
-![](https://github.com/ng-matching/webapp/blob/master/cards/poker1.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/poker4.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/poker7.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/poker2.png) ![](https://github.com/ng-matching/webapp/blob/master/cards/poker9.png)
+ ![](https://github.com/ng-matching/webapp/blob/master/cards/poker4.png)![](https://github.com/ng-matching/webapp/blob/master/cards/poker7.png)![](https://github.com/ng-matching/webapp/blob/master/cards/poker2.png)![](https://github.com/ng-matching/webapp/blob/master/cards/poker9.png)
  
  
