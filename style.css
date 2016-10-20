@@ -1,0 +1,68 @@
+.flip3d {
+	width: 140px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+.flip3d > .front {
+	position: absolute;
+	background: #FC0;
+	width: 140px;
+	height: 180px;
+	border-radius: 10px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+
+.flip3d:hover > .front {
+	/*-webkit-transform: rotateY(-180deg);
+	transform: perspective(600px) rotateY(-180deg);*/
+}
+
+.flip3d > .back {
+	position: absolute;
+	background: #80BFFF;
+	width: 140px;
+	height: 180px;
+	border-radius: 10px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	transform: perspective(600px) rotateY(180deg);
+	transition: -webkit-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+
+.flip3d:hover > .back {
+	/*-webkit-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);*/
+}
+
+.container {
+	margin-top: 10px;
+}
+
+/*.mini-bar {
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+}*/
+
+.time-attack, .time-arcade {
+	font-size: 3em;
+}
+
+.btn-mode {
+	background-color: #142c3b;
+	padding: 2% 0;
+	font-size: 3em;
+	font-family: jungle_fever_nfregular;
+	width: 50%;
+	margin-bottom: 20px;
+}
