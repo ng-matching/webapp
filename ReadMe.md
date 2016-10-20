@@ -71,7 +71,7 @@
   * October 7'16 - Tasking
   * October 11'16- Improving features of the game
   * October 15'16- updates
- 
+  * October 20'16- Through Group chat
  
  ## Sample Cards:
  
